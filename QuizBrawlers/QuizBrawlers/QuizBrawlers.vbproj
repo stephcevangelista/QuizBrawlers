@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4DC20C1E-E87F-4DCE-A5BA-1E4A09C21644}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>QuizBrawlers.My.MyApplication</StartupObject>
+    <RootNamespace>QuizBrawlers</RootNamespace>
+    <AssemblyName>QuizBrawlers</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>QuizBrawlers.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>QuizBrawlers.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="pageScores.Designer.vb">
+      <DependentUpon>pageScores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pageScores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pagePlayLANStartQuestions.Designer.vb">
+      <DependentUpon>pagePlayLANStartQuestions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pagePlayLANStartQuestions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pagePlayLANStartPlayers.Designer.vb">
+      <DependentUpon>pagePlayLANStartPlayers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pagePlayLANStartPlayers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pagePlayLANCreateCategories.Designer.vb">
+      <DependentUpon>pagePlayLANCreateCategories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pagePlayLANCreateCategories.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pagePlayLAN.Designer.vb">
+      <DependentUpon>pagePlayLAN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pagePlayLAN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pageExtras2.Designer.vb">
+      <DependentUpon>pageExtras2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pageExtras2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pagePlay.Designer.vb">
+      <DependentUpon>pagePlay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pagePlay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pageExtras1.Designer.vb">
+      <DependentUpon>pageExtras1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pageExtras1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pageHow2Play.Designer.vb">
+      <DependentUpon>pageHow2Play.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pageHow2Play.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pageAbout.Designer.vb">
+      <DependentUpon>pageAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pageAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pageHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.vb">
+      <DependentUpon>pageHome.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pageAbout.resx">
+      <DependentUpon>pageAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pageExtras1.resx">
+      <DependentUpon>pageExtras1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pageExtras2.resx">
+      <DependentUpon>pageExtras2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pageHome.resx">
+      <DependentUpon>pageHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pageHow2Play.resx">
+      <DependentUpon>pageHow2Play.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pagePlayLAN.resx">
+      <DependentUpon>pagePlayLAN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pagePlayLANCreateCategories.resx">
+      <DependentUpon>pagePlayLANCreateCategories.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pagePlayLANStartPlayers.resx">
+      <DependentUpon>pagePlayLANStartPlayers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pagePlayLANStartQuestions.resx">
+      <DependentUpon>pagePlayLANStartQuestions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pageScores.resx">
+      <DependentUpon>pageScores.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\118-1183591_cool-modern-wallpapers-full-hd-wall-blue-modern.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19642632_1570293189655699_3489873034694790590_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lanconnection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\063-batman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\064-superman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOSER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WINNER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOSER1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
