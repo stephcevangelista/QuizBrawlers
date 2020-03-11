@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18F9AFD0-6A2A-41B2-8BE1-D964EC4573A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>questionsYears.My.MyApplication</StartupObject>
+    <RootNamespace>questionsYears</RootNamespace>
+    <AssemblyName>questionsYears</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>questionsYears.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>questionsYears.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="videoGames10.Designer.vb">
+      <DependentUpon>videoGames10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="videoGames10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoGames9.Designer.vb">
+      <DependentUpon>videoGames9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="videoGames9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoGames8.Designer.vb">
+      <DependentUpon>videoGames8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="videoGames8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoGames7.Designer.vb">
+      <DependentUpon>videoGames7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="videoGames7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoGames6.Designer.vb">
+      <DependentUpon>videoGames6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="videoGames6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoGames5.Designer.vb">
+      <DependentUpon>videoGames5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="videoGames5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoGames4.Designer.vb">
+      <DependentUpon>videoGames4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="videoGames4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoGames3.Designer.vb">
+      <DependentUpon>videoGames3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="videoGames3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoGames2.Designer.vb">
+      <DependentUpon>videoGames2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="videoGames2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoGames1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoGames1.Designer.vb">
+      <DependentUpon>videoGames1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="videoGames10.resx">
+      <DependentUpon>videoGames10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videoGames9.resx">
+      <DependentUpon>videoGames9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videoGames8.resx">
+      <DependentUpon>videoGames8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videoGames7.resx">
+      <DependentUpon>videoGames7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videoGames4.resx">
+      <DependentUpon>videoGames4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videoGames1.resx">
+      <DependentUpon>videoGames1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videoGames2.resx">
+      <DependentUpon>videoGames2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videoGames3.resx">
+      <DependentUpon>videoGames3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videoGames5.resx">
+      <DependentUpon>videoGames5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videoGames6.resx">
+      <DependentUpon>videoGames6.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\118-1183591_cool-modern-wallpapers-full-hd-wall-blue-modern.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-lego.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\063-batman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirm.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
