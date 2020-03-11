@@ -39,7 +39,7 @@ Partial Class pageAbout
         Me.GroupBox1.Controls.Add(Me.Panel1)
         Me.GroupBox1.Font = New System.Drawing.Font("Games", 89.99999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.DarkRed
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 1)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(860, 637)
         Me.GroupBox1.TabIndex = 0
@@ -48,17 +48,18 @@ Partial Class pageAbout
         '
         'aboutPrev
         '
+        Me.aboutPrev.BackColor = System.Drawing.Color.Transparent
         Me.aboutPrev.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.Picture4
         Me.aboutPrev.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.aboutPrev.Location = New System.Drawing.Point(747, 540)
+        Me.aboutPrev.Location = New System.Drawing.Point(771, 549)
         Me.aboutPrev.Name = "aboutPrev"
-        Me.aboutPrev.Size = New System.Drawing.Size(80, 80)
+        Me.aboutPrev.Size = New System.Drawing.Size(71, 67)
         Me.aboutPrev.TabIndex = 1
-        Me.aboutPrev.UseVisualStyleBackColor = True
+        Me.aboutPrev.UseVisualStyleBackColor = False
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
         Me.Panel1.Controls.Add(Me.RichTextBox1)
         Me.Panel1.Location = New System.Drawing.Point(33, 125)
@@ -68,9 +69,14 @@ Partial Class pageAbout
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Font = New System.Drawing.Font("Arca Majora 3 Heavy", 30.0!, System.Drawing.FontStyle.Bold)
+        Me.RichTextBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RichTextBox1.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.RichTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox1.Location = New System.Drawing.Point(44, 45)
         Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.ReadOnly = True
         Me.RichTextBox1.Size = New System.Drawing.Size(703, 321)
         Me.RichTextBox1.TabIndex = 0
         Me.RichTextBox1.Text = "Quiz Brawlers is a form of game or mind sport, in which the players attempt to an" &

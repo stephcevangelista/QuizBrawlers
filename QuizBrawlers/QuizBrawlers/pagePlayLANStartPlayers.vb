@@ -8,5 +8,4 @@
         Me.Hide()
         pagePlayLANStartQuestions.Show()
     End Sub
-
 End Class

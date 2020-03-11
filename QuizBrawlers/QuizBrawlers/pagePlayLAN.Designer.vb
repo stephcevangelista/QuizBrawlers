@@ -45,7 +45,6 @@ Partial Class pagePlayLAN
         Me.GroupBox1.Controls.Add(Me.playlanprev)
         Me.GroupBox1.Controls.Add(Me.gameCreate)
         Me.GroupBox1.Controls.Add(Me.gameJoin)
-        Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Panel1)
         Me.GroupBox1.Font = New System.Drawing.Font("Games", 75.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.DarkRed
@@ -72,9 +71,9 @@ Partial Class pagePlayLAN
         Me.playlanprev.BackColor = System.Drawing.Color.White
         Me.playlanprev.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.Picture4
         Me.playlanprev.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.playlanprev.Location = New System.Drawing.Point(732, 531)
+        Me.playlanprev.Location = New System.Drawing.Point(764, 563)
         Me.playlanprev.Name = "playlanprev"
-        Me.playlanprev.Size = New System.Drawing.Size(80, 80)
+        Me.playlanprev.Size = New System.Drawing.Size(71, 67)
         Me.playlanprev.TabIndex = 4
         Me.playlanprev.UseVisualStyleBackColor = False
         '
@@ -83,9 +82,9 @@ Partial Class pagePlayLAN
         Me.gameCreate.BackColor = System.Drawing.Color.White
         Me.gameCreate.Font = New System.Drawing.Font("Games", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gameCreate.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.gameCreate.Location = New System.Drawing.Point(557, 427)
+        Me.gameCreate.Location = New System.Drawing.Point(572, 427)
         Me.gameCreate.Name = "gameCreate"
-        Me.gameCreate.Size = New System.Drawing.Size(255, 90)
+        Me.gameCreate.Size = New System.Drawing.Size(240, 90)
         Me.gameCreate.TabIndex = 3
         Me.gameCreate.Text = "CREATE"
         Me.gameCreate.UseVisualStyleBackColor = False
@@ -95,9 +94,9 @@ Partial Class pagePlayLAN
         Me.gameJoin.BackColor = System.Drawing.Color.White
         Me.gameJoin.Font = New System.Drawing.Font("Games", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gameJoin.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.gameJoin.Location = New System.Drawing.Point(557, 331)
+        Me.gameJoin.Location = New System.Drawing.Point(571, 331)
         Me.gameJoin.Name = "gameJoin"
-        Me.gameJoin.Size = New System.Drawing.Size(255, 90)
+        Me.gameJoin.Size = New System.Drawing.Size(240, 90)
         Me.gameJoin.TabIndex = 2
         Me.gameJoin.Text = "JOIN"
         Me.gameJoin.UseVisualStyleBackColor = False
@@ -105,24 +104,25 @@ Partial Class pagePlayLAN
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.White
-        Me.Label1.Font = New System.Drawing.Font("Games", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Label1.Font = New System.Drawing.Font("Games", 39.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label1.Location = New System.Drawing.Point(84, 130)
+        Me.Label1.Location = New System.Drawing.Point(64, 12)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(383, 69)
+        Me.Label1.Size = New System.Drawing.Size(340, 61)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "GAME LOBBY"
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
         Me.Panel1.Controls.Add(Me.gameStart)
         Me.Panel1.Controls.Add(Me.Game1)
+        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(51, 161)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(450, 450)
+        Me.Panel1.Size = New System.Drawing.Size(450, 438)
         Me.Panel1.TabIndex = 0
         '
         'gameStart
@@ -130,7 +130,7 @@ Partial Class pagePlayLAN
         Me.gameStart.BackColor = System.Drawing.Color.White
         Me.gameStart.Font = New System.Drawing.Font("Games", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gameStart.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.gameStart.Location = New System.Drawing.Point(271, 388)
+        Me.gameStart.Location = New System.Drawing.Point(270, 370)
         Me.gameStart.Name = "gameStart"
         Me.gameStart.Size = New System.Drawing.Size(155, 50)
         Me.gameStart.TabIndex = 1
@@ -139,16 +139,17 @@ Partial Class pagePlayLAN
         '
         'Game1
         '
+        Me.Game1.BackColor = System.Drawing.SystemColors.ControlLight
         Me.Game1.Enabled = False
-        Me.Game1.Font = New System.Drawing.Font("Arca Majora 3 Heavy", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Game1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Game1.FormattingEnabled = True
         Me.Game1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.Game1.ItemHeight = 40
+        Me.Game1.ItemHeight = 31
         Me.Game1.Items.AddRange(New Object() {"Game 1 (1/2)"})
-        Me.Game1.Location = New System.Drawing.Point(42, 68)
+        Me.Game1.Location = New System.Drawing.Point(42, 86)
         Me.Game1.Name = "Game1"
         Me.Game1.ScrollAlwaysVisible = True
-        Me.Game1.Size = New System.Drawing.Size(383, 284)
+        Me.Game1.Size = New System.Drawing.Size(383, 252)
         Me.Game1.TabIndex = 0
         '
         'pagePlayLAN
@@ -163,9 +164,9 @@ Partial Class pagePlayLAN
         Me.Name = "pagePlayLAN"
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub

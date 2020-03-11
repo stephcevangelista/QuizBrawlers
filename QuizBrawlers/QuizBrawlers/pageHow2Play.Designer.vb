@@ -39,7 +39,7 @@ Partial Class pageHow2Play
         Me.GroupBox1.Controls.Add(Me.Panel1)
         Me.GroupBox1.Font = New System.Drawing.Font("Games", 75.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.DarkRed
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 1)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(860, 637)
         Me.GroupBox1.TabIndex = 0
@@ -51,15 +51,15 @@ Partial Class pageHow2Play
         Me.how2playprev.BackColor = System.Drawing.Color.White
         Me.how2playprev.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.Picture4
         Me.how2playprev.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.how2playprev.Location = New System.Drawing.Point(751, 532)
+        Me.how2playprev.Location = New System.Drawing.Point(769, 548)
         Me.how2playprev.Name = "how2playprev"
-        Me.how2playprev.Size = New System.Drawing.Size(80, 80)
+        Me.how2playprev.Size = New System.Drawing.Size(71, 67)
         Me.how2playprev.TabIndex = 1
         Me.how2playprev.UseVisualStyleBackColor = False
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
         Me.Panel1.Controls.Add(Me.RichTextBox1)
         Me.Panel1.Location = New System.Drawing.Point(29, 121)
@@ -69,9 +69,11 @@ Partial Class pageHow2Play
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Font = New System.Drawing.Font("Arca Majora 3 Heavy", 29.95!, System.Drawing.FontStyle.Bold)
+        Me.RichTextBox1.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.RichTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox1.Location = New System.Drawing.Point(52, 44)
         Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.ReadOnly = True
         Me.RichTextBox1.Size = New System.Drawing.Size(696, 308)
         Me.RichTextBox1.TabIndex = 0
         Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")

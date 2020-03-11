@@ -24,15 +24,15 @@ Partial Class pageExtras2
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(pageExtras2))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.extras2prev = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.extras2prev = New System.Windows.Forms.Button()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
-        Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -52,68 +52,68 @@ Partial Class pageExtras2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "EXTRAS"
         '
-        'Panel1
+        'Label1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.AliceBlue
-        Me.Panel1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Location = New System.Drawing.Point(23, 155)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(400, 380)
-        Me.Panel1.TabIndex = 0
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.AliceBlue
-        Me.Panel2.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
-        Me.Panel2.Controls.Add(Me.Label3)
-        Me.Panel2.Location = New System.Drawing.Point(440, 155)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(400, 380)
-        Me.Panel2.TabIndex = 1
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Montserrat SemiBold", 35.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label1.Location = New System.Drawing.Point(111, 125)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(634, 65)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "BACK-END DEVELOPERS"
         '
         'extras2prev
         '
         Me.extras2prev.BackColor = System.Drawing.Color.White
         Me.extras2prev.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.Picture4
         Me.extras2prev.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.extras2prev.Location = New System.Drawing.Point(760, 545)
+        Me.extras2prev.Location = New System.Drawing.Point(769, 552)
         Me.extras2prev.Name = "extras2prev"
-        Me.extras2prev.Size = New System.Drawing.Size(80, 80)
+        Me.extras2prev.Size = New System.Drawing.Size(71, 67)
         Me.extras2prev.TabIndex = 2
         Me.extras2prev.UseVisualStyleBackColor = False
         '
-        'Label1
+        'Panel2
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.White
-        Me.Label1.Font = New System.Drawing.Font("Games", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label1.Location = New System.Drawing.Point(93, 123)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(676, 69)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "BACK-END DEVELOPERS"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Arca Majora 3 Bold", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(10, 317)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(382, 35)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "AARON GABRIEL ALONZO"
+        Me.Panel2.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel2.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
+        Me.Panel2.Controls.Add(Me.Label3)
+        Me.Panel2.Location = New System.Drawing.Point(440, 203)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(400, 330)
+        Me.Panel2.TabIndex = 1
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Arca Majora 3 Bold", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(74, 317)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(68, 267)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(246, 35)
+        Me.Label3.Size = New System.Drawing.Size(272, 33)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "PERVEEN GAPAS"
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Location = New System.Drawing.Point(22, 203)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(400, 330)
+        Me.Panel1.TabIndex = 0
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(1, 267)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(399, 33)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "AARON GABRIEL ALONZO"
         '
         'pageExtras2
         '
@@ -128,10 +128,10 @@ Partial Class pageExtras2
         Me.Text = "QUIZ BRAWLERS"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub

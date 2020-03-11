@@ -25,10 +25,10 @@ Partial Class pagePlayLANStartPlayers
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(pagePlayLANStartPlayers))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.startplayersconfirm = New System.Windows.Forms.Button()
-        Me.startplayersprev = New System.Windows.Forms.Button()
-        Me.player2avatar = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.startplayersprev = New System.Windows.Forms.Button()
+        Me.player2avatar = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.player1avatar = New System.Windows.Forms.PictureBox()
@@ -44,9 +44,9 @@ Partial Class pagePlayLANStartPlayers
         Me.GroupBox1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources._118_1183591_cool_modern_wallpapers_full_hd_wall_blue_modern
         Me.GroupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.GroupBox1.Controls.Add(Me.startplayersconfirm)
+        Me.GroupBox1.Controls.Add(Me.Panel2)
         Me.GroupBox1.Controls.Add(Me.startplayersprev)
         Me.GroupBox1.Controls.Add(Me.player2avatar)
-        Me.GroupBox1.Controls.Add(Me.Panel2)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Panel1)
         Me.GroupBox1.Font = New System.Drawing.Font("Games", 89.99999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -60,87 +60,88 @@ Partial Class pagePlayLANStartPlayers
         '
         'startplayersconfirm
         '
-        Me.startplayersconfirm.BackColor = System.Drawing.Color.White
+        Me.startplayersconfirm.BackColor = System.Drawing.Color.Transparent
         Me.startplayersconfirm.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.confirm
         Me.startplayersconfirm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.startplayersconfirm.Location = New System.Drawing.Point(685, 540)
+        Me.startplayersconfirm.Location = New System.Drawing.Point(769, 557)
         Me.startplayersconfirm.Name = "startplayersconfirm"
-        Me.startplayersconfirm.Size = New System.Drawing.Size(80, 80)
+        Me.startplayersconfirm.Size = New System.Drawing.Size(71, 67)
         Me.startplayersconfirm.TabIndex = 5
         Me.startplayersconfirm.UseVisualStyleBackColor = False
-        '
-        'startplayersprev
-        '
-        Me.startplayersprev.BackColor = System.Drawing.Color.White
-        Me.startplayersprev.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.Picture4
-        Me.startplayersprev.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.startplayersprev.Location = New System.Drawing.Point(599, 540)
-        Me.startplayersprev.Name = "startplayersprev"
-        Me.startplayersprev.Size = New System.Drawing.Size(80, 80)
-        Me.startplayersprev.TabIndex = 4
-        Me.startplayersprev.UseVisualStyleBackColor = False
-        '
-        'player2avatar
-        '
-        Me.player2avatar.AutoSize = True
-        Me.player2avatar.BackColor = System.Drawing.Color.White
-        Me.player2avatar.Font = New System.Drawing.Font("Games", 39.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.player2avatar.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.player2avatar.Location = New System.Drawing.Point(484, 153)
-        Me.player2avatar.Name = "player2avatar"
-        Me.player2avatar.Size = New System.Drawing.Size(261, 61)
-        Me.player2avatar.TabIndex = 3
-        Me.player2avatar.Text = "PLAYER 2"
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.AliceBlue
         Me.Panel2.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
         Me.Panel2.Controls.Add(Me.PictureBox1)
-        Me.Panel2.Location = New System.Drawing.Point(465, 220)
+        Me.Panel2.Location = New System.Drawing.Point(480, 230)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(300, 315)
+        Me.Panel2.Size = New System.Drawing.Size(300, 290)
         Me.Panel2.TabIndex = 2
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.White
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources._064_superman
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(36, 44)
+        Me.PictureBox1.Location = New System.Drawing.Point(39, 34)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(226, 228)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'startplayersprev
+        '
+        Me.startplayersprev.BackColor = System.Drawing.Color.Transparent
+        Me.startplayersprev.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.Picture4
+        Me.startplayersprev.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.startplayersprev.ForeColor = System.Drawing.Color.DarkRed
+        Me.startplayersprev.Location = New System.Drawing.Point(683, 557)
+        Me.startplayersprev.Name = "startplayersprev"
+        Me.startplayersprev.Size = New System.Drawing.Size(71, 67)
+        Me.startplayersprev.TabIndex = 4
+        Me.startplayersprev.UseVisualStyleBackColor = False
+        '
+        'player2avatar
+        '
+        Me.player2avatar.AutoSize = True
+        Me.player2avatar.BackColor = System.Drawing.Color.Transparent
+        Me.player2avatar.Font = New System.Drawing.Font("Games", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.player2avatar.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.player2avatar.Location = New System.Drawing.Point(514, 158)
+        Me.player2avatar.Name = "player2avatar"
+        Me.player2avatar.Size = New System.Drawing.Size(231, 55)
+        Me.player2avatar.TabIndex = 3
+        Me.player2avatar.Text = "PLAYER 2"
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.White
-        Me.Label1.Font = New System.Drawing.Font("Games", 39.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label1.Location = New System.Drawing.Point(119, 153)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Games", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label1.Location = New System.Drawing.Point(138, 158)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(247, 61)
+        Me.Label1.Size = New System.Drawing.Size(218, 55)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "PLAYER 1"
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
         Me.Panel1.Controls.Add(Me.player1avatar)
-        Me.Panel1.Location = New System.Drawing.Point(93, 220)
+        Me.Panel1.Location = New System.Drawing.Point(93, 230)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(300, 315)
+        Me.Panel1.Size = New System.Drawing.Size(300, 290)
         Me.Panel1.TabIndex = 0
         '
         'player1avatar
         '
-        Me.player1avatar.BackColor = System.Drawing.Color.White
+        Me.player1avatar.BackColor = System.Drawing.Color.Transparent
         Me.player1avatar.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources._063_batman
         Me.player1avatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.player1avatar.Location = New System.Drawing.Point(36, 44)
+        Me.player1avatar.Location = New System.Drawing.Point(37, 34)
         Me.player1avatar.Name = "player1avatar"
         Me.player1avatar.Size = New System.Drawing.Size(226, 228)
         Me.player1avatar.TabIndex = 0

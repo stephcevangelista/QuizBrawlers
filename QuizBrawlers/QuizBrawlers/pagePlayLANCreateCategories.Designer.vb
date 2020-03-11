@@ -60,17 +60,18 @@ Partial Class pagePlayLANCreateCategories
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.White
-        Me.Label5.Font = New System.Drawing.Font("Arca Majora 3 Bold", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label5.Location = New System.Drawing.Point(35, 550)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(504, 40)
+        Me.Label5.Size = New System.Drawing.Size(424, 31)
         Me.Label5.TabIndex = 3
         Me.Label5.Text = "NOTE: Choose at least one (1)."
         '
         'createcategoriesprev
         '
-        Me.createcategoriesprev.BackColor = System.Drawing.Color.White
+        Me.createcategoriesprev.BackColor = System.Drawing.Color.Transparent
         Me.createcategoriesprev.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.Picture4
         Me.createcategoriesprev.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.createcategoriesprev.Location = New System.Drawing.Point(665, 550)
@@ -81,7 +82,7 @@ Partial Class pagePlayLANCreateCategories
         '
         'createcategoriesconfirm
         '
-        Me.createcategoriesconfirm.BackColor = System.Drawing.Color.White
+        Me.createcategoriesconfirm.BackColor = System.Drawing.Color.Transparent
         Me.createcategoriesconfirm.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.confirm
         Me.createcategoriesconfirm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.createcategoriesconfirm.Location = New System.Drawing.Point(751, 550)
@@ -92,7 +93,7 @@ Partial Class pagePlayLANCreateCategories
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.Label4)
@@ -112,7 +113,7 @@ Partial Class pagePlayLANCreateCategories
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Games", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label3.Location = New System.Drawing.Point(399, 218)
+        Me.Label3.Location = New System.Drawing.Point(422, 222)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(323, 55)
         Me.Label3.TabIndex = 7
@@ -123,7 +124,7 @@ Partial Class pagePlayLANCreateCategories
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Games", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label4.Location = New System.Drawing.Point(458, 22)
+        Me.Label4.Location = New System.Drawing.Point(489, 22)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(188, 55)
         Me.Label4.TabIndex = 6
@@ -134,7 +135,7 @@ Partial Class pagePlayLANCreateCategories
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Games", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label2.Location = New System.Drawing.Point(141, 218)
+        Me.Label2.Location = New System.Drawing.Point(140, 222)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(168, 55)
         Me.Label2.TabIndex = 5
@@ -153,46 +154,46 @@ Partial Class pagePlayLANCreateCategories
         '
         'ListBox3
         '
-        Me.ListBox3.Font = New System.Drawing.Font("Arca Majora 3 Bold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ListBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.ItemHeight = 24
+        Me.ListBox3.ItemHeight = 25
         Me.ListBox3.Items.AddRange(New Object() {"Video Games", "Companies", "People", "Inventions", "TV Shows"})
-        Me.ListBox3.Location = New System.Drawing.Point(114, 280)
+        Me.ListBox3.Location = New System.Drawing.Point(85, 280)
         Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(219, 124)
+        Me.ListBox3.Size = New System.Drawing.Size(290, 129)
         Me.ListBox3.TabIndex = 3
         '
         'ListBox2
         '
-        Me.ListBox2.Font = New System.Drawing.Font("Arca Majora 3 Bold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ListBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.ItemHeight = 24
+        Me.ListBox2.ItemHeight = 25
         Me.ListBox2.Items.AddRange(New Object() {"Singapore", "Italy", "France", "Egypt", "Netherlands"})
-        Me.ListBox2.Location = New System.Drawing.Point(444, 280)
+        Me.ListBox2.Location = New System.Drawing.Point(432, 280)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(219, 124)
+        Me.ListBox2.Size = New System.Drawing.Size(290, 129)
         Me.ListBox2.TabIndex = 2
         '
         'ListBox1
         '
-        Me.ListBox1.Font = New System.Drawing.Font("Arca Majora 3 Bold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ListBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 24
+        Me.ListBox1.ItemHeight = 25
         Me.ListBox1.Items.AddRange(New Object() {"Sci-Fi", "Marvel Cinematic Universe", "Action", "Actors", "Actresses"})
-        Me.ListBox1.Location = New System.Drawing.Point(444, 84)
+        Me.ListBox1.Location = New System.Drawing.Point(432, 80)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(219, 124)
+        Me.ListBox1.Size = New System.Drawing.Size(290, 129)
         Me.ListBox1.TabIndex = 1
         '
         'ListBoxCountries
         '
-        Me.ListBoxCountries.Font = New System.Drawing.Font("Arca Majora 3 Bold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ListBoxCountries.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBoxCountries.FormattingEnabled = True
-        Me.ListBoxCountries.ItemHeight = 24
+        Me.ListBoxCountries.ItemHeight = 25
         Me.ListBoxCountries.Items.AddRange(New Object() {"Population/ People", "Mountains", "Buildings", "Water Forms", "Facts"})
-        Me.ListBoxCountries.Location = New System.Drawing.Point(114, 84)
+        Me.ListBoxCountries.Location = New System.Drawing.Point(85, 80)
         Me.ListBoxCountries.Name = "ListBoxCountries"
-        Me.ListBoxCountries.Size = New System.Drawing.Size(219, 124)
+        Me.ListBoxCountries.Size = New System.Drawing.Size(290, 129)
         Me.ListBoxCountries.TabIndex = 0
         '
         'pagePlayLANCreateCategories

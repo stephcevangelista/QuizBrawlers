@@ -59,12 +59,12 @@ Partial Class pageExtras1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.White
-        Me.Label1.Font = New System.Drawing.Font("Games", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label1.Location = New System.Drawing.Point(101, 123)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Montserrat SemiBold", 35.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label1.Location = New System.Drawing.Point(117, 127)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(705, 69)
+        Me.Label1.Size = New System.Drawing.Size(665, 65)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "FRONT-END DEVELOPERS"
         '
@@ -73,9 +73,9 @@ Partial Class pageExtras1
         Me.extras1next.BackColor = System.Drawing.Color.White
         Me.extras1next.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources._next
         Me.extras1next.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.extras1next.Location = New System.Drawing.Point(761, 545)
+        Me.extras1next.Location = New System.Drawing.Point(770, 558)
         Me.extras1next.Name = "extras1next"
-        Me.extras1next.Size = New System.Drawing.Size(80, 80)
+        Me.extras1next.Size = New System.Drawing.Size(71, 67)
         Me.extras1next.TabIndex = 3
         Me.extras1next.UseVisualStyleBackColor = False
         '
@@ -84,60 +84,60 @@ Partial Class pageExtras1
         Me.extras1prev.BackColor = System.Drawing.Color.White
         Me.extras1prev.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.Picture4
         Me.extras1prev.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.extras1prev.Location = New System.Drawing.Point(675, 545)
+        Me.extras1prev.Location = New System.Drawing.Point(684, 558)
         Me.extras1prev.Name = "extras1prev"
-        Me.extras1prev.Size = New System.Drawing.Size(80, 80)
+        Me.extras1prev.Size = New System.Drawing.Size(71, 67)
         Me.extras1prev.TabIndex = 2
         Me.extras1prev.UseVisualStyleBackColor = False
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel2.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel2.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
         Me.Panel2.Controls.Add(Me.Label3)
-        Me.Panel2.Location = New System.Drawing.Point(441, 159)
+        Me.Panel2.Location = New System.Drawing.Point(441, 209)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(400, 380)
+        Me.Panel2.Size = New System.Drawing.Size(400, 330)
         Me.Panel2.TabIndex = 1
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Arca Majora 3 Heavy", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(34, 304)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(37, 271)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(339, 35)
+        Me.Label3.Size = New System.Drawing.Size(342, 33)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "ABIGAIL ROSE BARRA"
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources.unnamed
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Location = New System.Drawing.Point(19, 159)
+        Me.Panel1.Location = New System.Drawing.Point(19, 209)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(400, 380)
+        Me.Panel1.Size = New System.Drawing.Size(400, 330)
         Me.Panel1.TabIndex = 0
         '
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = Global.QuizBrawlers.My.Resources.Resources._19642632_1570293189655699_3489873034694790590_n
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(88, 59)
+        Me.PictureBox1.Location = New System.Drawing.Point(40, 26)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(230, 231)
+        Me.PictureBox1.Size = New System.Drawing.Size(320, 231)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Arca Majora 3 Heavy", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(39, 304)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(34, 271)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(319, 35)
+        Me.Label2.Size = New System.Drawing.Size(336, 33)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "STEPH EVANGELISTA"
         '
