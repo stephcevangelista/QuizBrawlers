@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1450B5EC-8470-4C82-A2CF-8CE6FD564A79}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>questionsCountries.My.MyApplication</StartupObject>
+    <RootNamespace>questionsCountries</RootNamespace>
+    <AssemblyName>questionsCountries</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>questionsCountries.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>questionsCountries.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pop1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pop1.Designer.vb">
+      <DependentUpon>Pop1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pop10.Designer.vb">
+      <DependentUpon>Pop10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pop10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pop2.Designer.vb">
+      <DependentUpon>Pop2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pop2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pop3.Designer.vb">
+      <DependentUpon>Pop3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pop3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pop4.Designer.vb">
+      <DependentUpon>Pop4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pop4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pop5.Designer.vb">
+      <DependentUpon>Pop5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pop5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pop6.Designer.vb">
+      <DependentUpon>Pop6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pop6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pop7.Designer.vb">
+      <DependentUpon>Pop7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pop7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pop8.Designer.vb">
+      <DependentUpon>Pop8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pop8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pop9.Designer.vb">
+      <DependentUpon>Pop9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pop9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop1.resx">
+      <DependentUpon>Pop1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop10.resx">
+      <DependentUpon>Pop10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop2.resx">
+      <DependentUpon>Pop2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop3.resx">
+      <DependentUpon>Pop3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop4.resx">
+      <DependentUpon>Pop4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop5.resx">
+      <DependentUpon>Pop5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop6.resx">
+      <DependentUpon>Pop6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop7.resx">
+      <DependentUpon>Pop7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop8.resx">
+      <DependentUpon>Pop8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop9.resx">
+      <DependentUpon>Pop9.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\118-1183591_cool-modern-wallpapers-full-hd-wall-blue-modern.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\063-batman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirm.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
