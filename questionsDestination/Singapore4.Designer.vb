@@ -22,6 +22,7 @@ Partial Class Singapore4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Singapore4))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Singapore4confirm = New System.Windows.Forms.Button()
@@ -155,6 +156,7 @@ Partial Class Singapore4
         Me.ClientSize = New System.Drawing.Size(884, 661)
         Me.Controls.Add(Me.GroupBox1)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Singapore4"
         Me.Text = "QUIZ BRAWLERS"
         Me.GroupBox1.ResumeLayout(False)

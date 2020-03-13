@@ -73,6 +73,126 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Egypt1.Designer.vb">
+      <DependentUpon>Egypt1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Egypt1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Egypt2.Designer.vb">
+      <DependentUpon>Egypt2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Egypt2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Egypt3.Designer.vb">
+      <DependentUpon>Egypt3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Egypt3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Egypt4.Designer.vb">
+      <DependentUpon>Egypt4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Egypt4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Egypt5.Designer.vb">
+      <DependentUpon>Egypt5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Egypt5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="France1.Designer.vb">
+      <DependentUpon>France1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="France1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="France2.Designer.vb">
+      <DependentUpon>France2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="France2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="France3.Designer.vb">
+      <DependentUpon>France3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="France3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="France4.Designer.vb">
+      <DependentUpon>France4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="France4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="France5.Designer.vb">
+      <DependentUpon>France5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="France5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Italy1.Designer.vb">
+      <DependentUpon>Italy1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Italy1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Italy2.Designer.vb">
+      <DependentUpon>Italy2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Italy2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Italy3.Designer.vb">
+      <DependentUpon>Italy3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Italy3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Italy4.Designer.vb">
+      <DependentUpon>Italy4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Italy4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Italy5.Designer.vb">
+      <DependentUpon>Italy5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Italy5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nether1.Designer.vb">
+      <DependentUpon>Nether1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nether1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nether2.Designer.vb">
+      <DependentUpon>Nether2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nether2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nether3.Designer.vb">
+      <DependentUpon>Nether3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nether3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nether4.Designer.vb">
+      <DependentUpon>Nether4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nether4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nether5.Designer.vb">
+      <DependentUpon>Nether5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nether5.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Singapore10.Designer.vb">
       <DependentUpon>Singapore10.vb</DependentUpon>
     </Compile>
@@ -151,6 +271,66 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Egypt1.resx">
+      <DependentUpon>Egypt1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Egypt2.resx">
+      <DependentUpon>Egypt2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Egypt3.resx">
+      <DependentUpon>Egypt3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Egypt4.resx">
+      <DependentUpon>Egypt4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Egypt5.resx">
+      <DependentUpon>Egypt5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="France1.resx">
+      <DependentUpon>France1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="France2.resx">
+      <DependentUpon>France2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="France3.resx">
+      <DependentUpon>France3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="France4.resx">
+      <DependentUpon>France4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="France5.resx">
+      <DependentUpon>France5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Italy1.resx">
+      <DependentUpon>Italy1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Italy2.resx">
+      <DependentUpon>Italy2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Italy3.resx">
+      <DependentUpon>Italy3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Italy4.resx">
+      <DependentUpon>Italy4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Italy5.resx">
+      <DependentUpon>Italy5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nether1.resx">
+      <DependentUpon>Nether1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nether2.resx">
+      <DependentUpon>Nether2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nether3.resx">
+      <DependentUpon>Nether3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nether4.resx">
+      <DependentUpon>Nether4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nether5.resx">
+      <DependentUpon>Nether5.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Singapore1.resx">
       <DependentUpon>Singapore1.vb</DependentUpon>
     </EmbeddedResource>
