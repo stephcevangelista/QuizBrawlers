@@ -392,5 +392,8 @@
   <ItemGroup>
     <None Include="Resources\confirm.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

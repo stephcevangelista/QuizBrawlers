@@ -75,7 +75,7 @@ Partial Class Singapore5
         Me.Singapore5confirm.Location = New System.Drawing.Point(690, 364)
         Me.Singapore5confirm.Name = "Singapore5confirm"
         Me.Singapore5confirm.Size = New System.Drawing.Size(70, 70)
-        Me.Singapore5confirm.TabIndex = 8
+        Me.Singapore5confirm.TabIndex = 9
         Me.Singapore5confirm.UseVisualStyleBackColor = False
         '
         'Singapore5avatar
@@ -167,11 +167,11 @@ Partial Class Singapore5
 
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Singapore5confirm As Button
     Friend WithEvents Singapore5avatar As PictureBox
     Friend WithEvents Singapore5D As Button
     Friend WithEvents Singapore5C As Button
     Friend WithEvents Singapore5B As Button
     Friend WithEvents Singapore5A As Button
     Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents Singapore5confirm As Button
 End Class

@@ -124,7 +124,7 @@ Partial Class Nether5
         Me.Nether5B.Name = "Nether5B"
         Me.Nether5B.Size = New System.Drawing.Size(360, 60)
         Me.Nether5B.TabIndex = 2
-        Me.Nether5B.Text = "Van Gogh Museum"
+        Me.Nether5B.Text = "Amsterdam Museum"
         Me.Nether5B.UseVisualStyleBackColor = False
         '
         'Nether5A

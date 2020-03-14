@@ -76,7 +76,7 @@ Partial Class Egypt2
         Me.Egypt2confirm.Location = New System.Drawing.Point(690, 364)
         Me.Egypt2confirm.Name = "Egypt2confirm"
         Me.Egypt2confirm.Size = New System.Drawing.Size(70, 70)
-        Me.Egypt2confirm.TabIndex = 6
+        Me.Egypt2confirm.TabIndex = 7
         Me.Egypt2confirm.UseVisualStyleBackColor = False
         '
         'Egypt2avatar
@@ -167,11 +167,11 @@ Partial Class Egypt2
 
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Egypt2confirm As Button
     Friend WithEvents Egypt2avatar As PictureBox
     Friend WithEvents Egypt2D As Button
     Friend WithEvents Egypt2C As Button
     Friend WithEvents Egypt2B As Button
     Friend WithEvents Egypt2A As Button
     Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents Egypt2confirm As Button
 End Class

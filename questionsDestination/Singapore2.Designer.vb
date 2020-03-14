@@ -78,7 +78,7 @@ Partial Class Singapore2
         Me.Singapore2confirm.Location = New System.Drawing.Point(690, 364)
         Me.Singapore2confirm.Name = "Singapore2confirm"
         Me.Singapore2confirm.Size = New System.Drawing.Size(70, 70)
-        Me.Singapore2confirm.TabIndex = 7
+        Me.Singapore2confirm.TabIndex = 8
         Me.Singapore2confirm.UseVisualStyleBackColor = False
         '
         'Singapore2avatar

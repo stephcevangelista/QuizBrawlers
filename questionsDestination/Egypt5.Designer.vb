@@ -77,7 +77,7 @@ Partial Class Egypt5
         Me.Egypt5confirm.Location = New System.Drawing.Point(690, 364)
         Me.Egypt5confirm.Name = "Egypt5confirm"
         Me.Egypt5confirm.Size = New System.Drawing.Size(70, 70)
-        Me.Egypt5confirm.TabIndex = 6
+        Me.Egypt5confirm.TabIndex = 7
         Me.Egypt5confirm.UseVisualStyleBackColor = False
         '
         'Egypt5avatar
@@ -169,11 +169,11 @@ Partial Class Egypt5
 
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Egypt5confirm As Button
     Friend WithEvents Egypt5avatar As PictureBox
     Friend WithEvents Egypt5D As Button
     Friend WithEvents Egypt5C As Button
     Friend WithEvents Egypt5B As Button
     Friend WithEvents Egypt5A As Button
     Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents Egypt5confirm As Button
 End Class

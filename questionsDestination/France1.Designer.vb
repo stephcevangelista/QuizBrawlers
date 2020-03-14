@@ -77,7 +77,7 @@ Partial Class France1
         Me.France1confirm.Location = New System.Drawing.Point(690, 364)
         Me.France1confirm.Name = "France1confirm"
         Me.France1confirm.Size = New System.Drawing.Size(70, 70)
-        Me.France1confirm.TabIndex = 6
+        Me.France1confirm.TabIndex = 7
         Me.France1confirm.UseVisualStyleBackColor = False
         '
         'France1avatar
@@ -169,11 +169,11 @@ Partial Class France1
 
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents France1confirm As Button
     Friend WithEvents France1avatar As PictureBox
     Friend WithEvents France1D As Button
     Friend WithEvents France1C As Button
     Friend WithEvents France1B As Button
     Friend WithEvents France1A As Button
     Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents France1confirm As Button
 End Class

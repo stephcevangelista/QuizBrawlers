@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class France3
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,18 +20,18 @@ Partial Class France3
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(France3))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.France3confirm = New System.Windows.Forms.Button()
         Me.France3avatar = New System.Windows.Forms.PictureBox()
         Me.France3D = New System.Windows.Forms.Button()
         Me.France3C = New System.Windows.Forms.Button()
         Me.France3B = New System.Windows.Forms.Button()
         Me.France3A = New System.Windows.Forms.Button()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.France3confirm = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.France3avatar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -67,18 +67,6 @@ Partial Class France3
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(790, 460)
         Me.Panel1.TabIndex = 0
-        '
-        'France3confirm
-        '
-        Me.France3confirm.BackColor = System.Drawing.Color.White
-        Me.France3confirm.BackgroundImage = Global.questionsDestination.My.Resources.Resources.confirm
-        Me.France3confirm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.France3confirm.ForeColor = System.Drawing.Color.Black
-        Me.France3confirm.Location = New System.Drawing.Point(690, 364)
-        Me.France3confirm.Name = "France3confirm"
-        Me.France3confirm.Size = New System.Drawing.Size(70, 70)
-        Me.France3confirm.TabIndex = 6
-        Me.France3confirm.UseVisualStyleBackColor = False
         '
         'France3avatar
         '
@@ -149,6 +137,18 @@ Partial Class France3
         Me.RichTextBox1.TabIndex = 0
         Me.RichTextBox1.Text = "Pick two dishes that originated in France"
         '
+        'France3confirm
+        '
+        Me.France3confirm.BackColor = System.Drawing.Color.White
+        Me.France3confirm.BackgroundImage = Global.questionsDestination.My.Resources.Resources.confirm
+        Me.France3confirm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.France3confirm.ForeColor = System.Drawing.Color.Black
+        Me.France3confirm.Location = New System.Drawing.Point(690, 364)
+        Me.France3confirm.Name = "France3confirm"
+        Me.France3confirm.Size = New System.Drawing.Size(70, 70)
+        Me.France3confirm.TabIndex = 8
+        Me.France3confirm.UseVisualStyleBackColor = False
+        '
         'France3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -169,11 +169,11 @@ Partial Class France3
 
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents France3confirm As Button
     Friend WithEvents France3avatar As PictureBox
     Friend WithEvents France3D As Button
     Friend WithEvents France3C As Button
     Friend WithEvents France3B As Button
     Friend WithEvents France3A As Button
     Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents France3confirm As Button
 End Class

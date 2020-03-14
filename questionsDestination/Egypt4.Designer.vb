@@ -77,7 +77,7 @@ Partial Class Egypt4
         Me.Egypt4confirm.Location = New System.Drawing.Point(690, 364)
         Me.Egypt4confirm.Name = "Egypt4confirm"
         Me.Egypt4confirm.Size = New System.Drawing.Size(70, 70)
-        Me.Egypt4confirm.TabIndex = 6
+        Me.Egypt4confirm.TabIndex = 7
         Me.Egypt4confirm.UseVisualStyleBackColor = False
         '
         'Egypt4avatar
@@ -169,11 +169,11 @@ Partial Class Egypt4
 
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Egypt4confirm As Button
     Friend WithEvents Egypt4avatar As PictureBox
     Friend WithEvents Egypt4D As Button
     Friend WithEvents Egypt4C As Button
     Friend WithEvents Egypt4B As Button
     Friend WithEvents Egypt4A As Button
     Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents Egypt4confirm As Button
 End Class
