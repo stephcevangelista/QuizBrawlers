@@ -42,6 +42,11 @@ QuizBrawlers
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:QuizBrawlers.My.Resources.Resources._20200314_173856">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:QuizBrawlers.My.Resources.Resources._next">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -53,6 +58,31 @@ QuizBrawlers
 </summary>
 </member>
 <member name="P:QuizBrawlers.My.Resources.Resources.home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuizBrawlers.My.Resources.Resources.IMG_20191223_151635_817">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuizBrawlers.My.Resources.Resources.IMG_20191223_151635_817__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuizBrawlers.My.Resources.Resources.IMG_20191223_151635_817__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuizBrawlers.My.Resources.Resources.IMG_20200314_175406__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QuizBrawlers.My.Resources.Resources.IMG_20200314_182455">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
