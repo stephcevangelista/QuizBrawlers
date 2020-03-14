@@ -9,6 +9,7 @@
         Dim mcu2A As Boolean = False
         Me.mcu2A.BackColor = Color.DarkSeaGreen
         mcu2A = True
+        mcu2avatar.Image = My.Resources.superman
     End Sub
 
     'B: WRONG'
@@ -28,6 +29,7 @@
             Me.mcu2C.BackColor = Color.DarkSeaGreen
             mcu2C = True
         End If
+        mcu2avatar.Image = My.Resources.superman
     End Sub
 
     'C: CORRECT'
@@ -35,6 +37,7 @@
         Dim mcu2C As Boolean = False
         Me.mcu2C.BackColor = Color.DarkSeaGreen
         mcu2C = True
+        mcu2avatar.Image = My.Resources.superman
     End Sub
 
     'D: WRONG'
@@ -54,5 +57,6 @@
             Me.mcu2C.BackColor = Color.DarkSeaGreen
             mcu2C = True
         End If
+        mcu2avatar.Image = My.Resources.superman
     End Sub
 End Class

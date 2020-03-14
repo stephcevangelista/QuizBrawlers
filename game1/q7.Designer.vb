@@ -141,8 +141,8 @@ Partial Class q7
         'mcu2avatar
         '
         Me.mcu2avatar.BackColor = System.Drawing.Color.Transparent
-        Me.mcu2avatar.BackgroundImage = Global.game1.My.Resources.Resources._063_batman
         Me.mcu2avatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.mcu2avatar.Image = Global.game1.My.Resources.Resources.batman
         Me.mcu2avatar.Location = New System.Drawing.Point(32, 339)
         Me.mcu2avatar.Name = "mcu2avatar"
         Me.mcu2avatar.Size = New System.Drawing.Size(90, 90)

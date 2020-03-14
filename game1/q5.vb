@@ -9,6 +9,7 @@
         Dim companies2A As Boolean = False
         Me.companies2A.BackColor = Color.DarkSeaGreen
         companies2A = True
+        PictureBox1.Image = My.Resources.superman
     End Sub
 
     'B: WRONG'
@@ -28,6 +29,7 @@
             Me.companies2D.BackColor = Color.DarkSeaGreen
             companies2D = True
         End If
+        PictureBox1.Image = My.Resources.superman
     End Sub
 
     'C: WRONG'
@@ -47,6 +49,7 @@
             Me.companies2D.BackColor = Color.DarkSeaGreen
             companies2D = True
         End If
+        PictureBox1.Image = My.Resources.superman
     End Sub
 
     'D: CORRECT'
@@ -54,5 +57,6 @@
         Dim companies2D As Boolean = False
         Me.companies2D.BackColor = Color.DarkSeaGreen
         companies2D = True
+        PictureBox1.Image = My.Resources.superman
     End Sub
 End Class

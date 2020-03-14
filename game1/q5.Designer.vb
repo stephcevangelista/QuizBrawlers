@@ -72,8 +72,8 @@ Partial Class q5
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.BackgroundImage = Global.game1.My.Resources.Resources._063_batman
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Image = Global.game1.My.Resources.Resources.batman
         Me.PictureBox1.Location = New System.Drawing.Point(37, 343)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(90, 90)

@@ -9,6 +9,8 @@
         Dim Pop2A As Boolean = False
         Me.Pop2A.BackColor = Color.DarkSeaGreen
         Pop2A = True
+        Pop2avatar.Image = Image.FromFile("C:\Users\Steph\Downloads\superman.png")
+
     End Sub
 
     'B: correct'
@@ -16,6 +18,7 @@
         Dim Pop2B As Boolean = False
         Me.Pop2B.BackColor = Color.DarkSeaGreen
         Pop2B = True
+        Pop2avatar.Image = Image.FromFile("C:\Users\Steph\Downloads\superman.png")
     End Sub
 
     'C: wrong'
@@ -35,6 +38,7 @@
             Me.Pop2B.BackColor = Color.DarkSeaGreen
             Pop2B = True
         End If
+        Pop2avatar.Image = Image.FromFile("C:\Users\Steph\Downloads\superman.png")
     End Sub
 
     'D: Wrong'
@@ -54,5 +58,7 @@
             Me.Pop2B.BackColor = Color.DarkSeaGreen
             Pop2B = True
         End If
+        Pop2avatar.Image = Image.FromFile("C:\Users\Steph\Downloads\superman.png")
     End Sub
+
 End Class

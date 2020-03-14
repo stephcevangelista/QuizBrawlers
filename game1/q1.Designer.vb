@@ -85,8 +85,8 @@ Partial Class q1
         'Pop2avatar
         '
         Me.Pop2avatar.BackColor = System.Drawing.Color.Transparent
-        Me.Pop2avatar.BackgroundImage = Global.game1.My.Resources.Resources._063_batman
         Me.Pop2avatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Pop2avatar.Image = Global.game1.My.Resources.Resources.batman
         Me.Pop2avatar.Location = New System.Drawing.Point(35, 344)
         Me.Pop2avatar.Name = "Pop2avatar"
         Me.Pop2avatar.Size = New System.Drawing.Size(90, 90)

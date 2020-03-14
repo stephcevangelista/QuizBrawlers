@@ -70,8 +70,8 @@ Partial Class q4
         'companies5avatar
         '
         Me.companies5avatar.BackColor = System.Drawing.Color.Transparent
-        Me.companies5avatar.BackgroundImage = Global.game1.My.Resources.Resources._063_batman
         Me.companies5avatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.companies5avatar.Image = Global.game1.My.Resources.Resources.batman
         Me.companies5avatar.Location = New System.Drawing.Point(34, 342)
         Me.companies5avatar.Name = "companies5avatar"
         Me.companies5avatar.Size = New System.Drawing.Size(90, 90)

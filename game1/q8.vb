@@ -22,6 +22,7 @@
             Me.Singapore4D.BackColor = Color.DarkSeaGreen
             Singapore4D = True
         End If
+        Singapore4avatar.Image = My.Resources.superman
     End Sub
 
     'B: WRONG'
@@ -41,6 +42,7 @@
             Me.Singapore4D.BackColor = Color.DarkSeaGreen
             Singapore4D = True
         End If
+        Singapore4avatar.Image = My.Resources.superman
     End Sub
 
     'C: CORRECT'
@@ -48,6 +50,7 @@
         Dim Singapore4C As Boolean = False
         Me.Singapore4C.BackColor = Color.DarkSeaGreen
         Singapore4C = True
+        Singapore4avatar.Image = My.Resources.superman
     End Sub
 
     'D: CORRECT'
@@ -55,5 +58,7 @@
         Dim Singapore4D As Boolean = False
         Me.Singapore4D.BackColor = Color.DarkSeaGreen
         Singapore4D = True
+        Singapore4avatar.Image = My.Resources.superman
     End Sub
+
 End Class

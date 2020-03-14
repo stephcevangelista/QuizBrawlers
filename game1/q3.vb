@@ -9,6 +9,7 @@
         Dim Singapore3A As Boolean = False
         Me.Singapore3A.BackColor = Color.DarkSeaGreen
         Singapore3A = True
+        Singapore3avatar.Image = My.Resources.superman
     End Sub
 
     'B: correct'
@@ -16,6 +17,7 @@
         Dim Singapore3B As Boolean = False
         Me.Singapore3B.BackColor = Color.DarkSeaGreen
         Singapore3B = True
+        Singapore3avatar.Image = My.Resources.superman
     End Sub
 
     'C: wrong'
@@ -35,6 +37,7 @@
             Me.Singapore3B.BackColor = Color.DarkSeaGreen
             Singapore3B = True
         End If
+        Singapore3avatar.Image = My.Resources.superman
     End Sub
 
     'D: correct'
@@ -54,5 +57,8 @@
             Me.Singapore3B.BackColor = Color.DarkSeaGreen
             Singapore3B = True
         End If
+        Singapore3avatar.Image = My.Resources.superman
     End Sub
+
+
 End Class

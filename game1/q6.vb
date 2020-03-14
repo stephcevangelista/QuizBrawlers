@@ -22,6 +22,7 @@
             Me.Pop1C.BackColor = Color.DarkSeaGreen
             Pop1C = True
         End If
+        Pop1avatar.Image = My.Resources.superman
     End Sub
 
     'B: CORRECT'
@@ -29,6 +30,7 @@
         Dim Pop1B As Boolean = False
         Me.Pop1B.BackColor = Color.DarkSeaGreen
         Pop1B = True
+        Pop1avatar.Image = My.Resources.superman
     End Sub
 
     'C: CORRECT'
@@ -36,6 +38,7 @@
         Dim Pop1C As Boolean = False
         Me.Pop1C.BackColor = Color.DarkSeaGreen
         Pop1C = True
+        Pop1avatar.Image = My.Resources.superman
     End Sub
 
     'D: CORRECT'
@@ -55,5 +58,6 @@
             Me.Pop1C.BackColor = Color.DarkSeaGreen
             Pop1C = True
         End If
+        Pop1avatar.Image = My.Resources.superman
     End Sub
 End Class

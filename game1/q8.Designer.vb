@@ -83,8 +83,8 @@ Partial Class q8
         'Singapore4avatar
         '
         Me.Singapore4avatar.BackColor = System.Drawing.Color.Transparent
-        Me.Singapore4avatar.BackgroundImage = Global.game1.My.Resources.Resources._063_batman
         Me.Singapore4avatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Singapore4avatar.Image = Global.game1.My.Resources.Resources.batman
         Me.Singapore4avatar.Location = New System.Drawing.Point(35, 344)
         Me.Singapore4avatar.Name = "Singapore4avatar"
         Me.Singapore4avatar.Size = New System.Drawing.Size(90, 90)

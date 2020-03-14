@@ -85,8 +85,8 @@ Partial Class q6
         'Pop1avatar
         '
         Me.Pop1avatar.BackColor = System.Drawing.Color.Transparent
-        Me.Pop1avatar.BackgroundImage = Global.game1.My.Resources.Resources._063_batman
         Me.Pop1avatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Pop1avatar.Image = Global.game1.My.Resources.Resources.batman
         Me.Pop1avatar.Location = New System.Drawing.Point(35, 344)
         Me.Pop1avatar.Name = "Pop1avatar"
         Me.Pop1avatar.Size = New System.Drawing.Size(90, 90)
@@ -104,7 +104,7 @@ Partial Class q6
         Me.Pop1D.Name = "Pop1D"
         Me.Pop1D.Size = New System.Drawing.Size(360, 60)
         Me.Pop1D.TabIndex = 4
-        Me.Pop1D.Text = "Nepal (29,609,623)"
+        Me.Pop1D.Text = "Nepal "
         Me.Pop1D.UseVisualStyleBackColor = False
         '
         'Pop1C
@@ -118,7 +118,7 @@ Partial Class q6
         Me.Pop1C.Name = "Pop1C"
         Me.Pop1C.Size = New System.Drawing.Size(360, 60)
         Me.Pop1C.TabIndex = 3
-        Me.Pop1C.Text = "China (1,394,510,000)"
+        Me.Pop1C.Text = "China "
         Me.Pop1C.UseVisualStyleBackColor = False
         '
         'Pop1B
@@ -132,7 +132,7 @@ Partial Class q6
         Me.Pop1B.Name = "Pop1B"
         Me.Pop1B.Size = New System.Drawing.Size(360, 60)
         Me.Pop1B.TabIndex = 2
-        Me.Pop1B.Text = "India (1,343,330,000)"
+        Me.Pop1B.Text = "India "
         Me.Pop1B.UseVisualStyleBackColor = False
         '
         'Pop1A
@@ -146,7 +146,7 @@ Partial Class q6
         Me.Pop1A.Name = "Pop1A"
         Me.Pop1A.Size = New System.Drawing.Size(360, 60)
         Me.Pop1A.TabIndex = 1
-        Me.Pop1A.Text = "Malaysia (32,645,500)"
+        Me.Pop1A.Text = "Malaysia "
         Me.Pop1A.UseVisualStyleBackColor = False
         '
         'RichTextBox1

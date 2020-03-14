@@ -21,6 +21,8 @@
             Me.companies5D.BackColor = Color.DarkSeaGreen
             companies5D = True
         End If
+
+        companies5avatar.Image = My.Resources.superman
     End Sub
 
     'B: WRONG'
@@ -40,6 +42,7 @@
             Me.companies5D.BackColor = Color.DarkSeaGreen
             companies5D = True
         End If
+        companies5avatar.Image = My.Resources.superman
     End Sub
 
     'C: CORRECT'
@@ -47,6 +50,7 @@
         Dim companies5C As Boolean = False
         Me.companies5C.BackColor = Color.DarkSeaGreen
         companies5C = True
+        companies5avatar.Image = My.Resources.superman
     End Sub
 
     'D: CORRECT'
@@ -54,5 +58,6 @@
         Dim companies5D As Boolean = False
         Me.companies5D.BackColor = Color.DarkSeaGreen
         companies5D = True
+        companies5avatar.Image = My.Resources.superman
     End Sub
 End Class

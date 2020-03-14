@@ -22,6 +22,7 @@
             Me.mcu4D.BackColor = Color.DarkSeaGreen
             mcu4D = True
         End If
+        mcu4avatar.Image = Image.FromFile("C:\Users\Steph\Downloads\superman.png")
     End Sub
 
     'B: correct '
@@ -29,6 +30,7 @@
         Dim mcu4B As Boolean = False
         Me.mcu4B.BackColor = Color.DarkSeaGreen
         mcu4B = True
+        mcu4avatar.Image = Image.FromFile("C:\Users\Steph\Downloads\superman.png")
     End Sub
 
     'C: wrong'
@@ -48,6 +50,7 @@
             Me.mcu4D.BackColor = Color.DarkSeaGreen
             mcu4D = True
         End If
+        mcu4avatar.Image = Image.FromFile("C:\Users\Steph\Downloads\superman.png")
     End Sub
 
     'D: correct'
@@ -55,5 +58,6 @@
         Dim mcu4D As Boolean = False
         Me.mcu4D.BackColor = Color.DarkSeaGreen
         mcu4D = True
+        mcu4avatar.Image = Image.FromFile("C:\Users\Steph\Downloads\superman.png")
     End Sub
 End Class
